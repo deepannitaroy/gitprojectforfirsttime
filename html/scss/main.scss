@@ -1,0 +1,29 @@
+*{margin: 0; padding: 0;}
+
+
+@import 'variables';
+@import 'mixins';
+
+body{font-family: 'Open Sans', sans-serif; color: $body-color;}
+
+.main-heading{
+.heading-text {color: $h1-color; @include h1-content(600); padding-bottom: 20px;
+    span{color: $h1-color; @include h1-content(300);}
+ &:hover{color: #00648f;}
+}
+p{color: $main-p; @include commontext-format; margin-bottom: 1rem;}
+}
+
+.container{width: 900px !important;}
+h2{color:$h2-color; font-size:30px!important;line-height: 40px!important; font-weight: 500!important;}
+
+header{width: 100%; padding: 15px 0; background-color: #dadada; color: #fff;}
+
+.table-content{
+    h2{color:$h2-color; font-size:30px!important;line-height: 40px!important; font-weight: 500!important;}
+}
+
+.skydivbox{@include skybox;
+p{color: $h1-color; @include commontext-format;}
+}
+

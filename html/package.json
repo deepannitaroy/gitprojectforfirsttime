@@ -1,0 +1,14 @@
+{
+  "name": "digital-futures-in-mind",
+  "version": "1.0.0",
+  "description": "Starting with scss",
+  "main": "index.js",
+  "scripts": {
+ "compile:scss" : "node-sass scss/main.scss css/style.css -w"
+  },
+  "author": "Deepa",
+  "license": "ISC",
+  "devDependencies": {
+    "node-scss": "^7.0.3"
+  }
+}

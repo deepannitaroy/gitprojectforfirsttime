@@ -1,0 +1,7 @@
+
+@mixin h1-content($weight-font){font-size:60px;line-height: 70px; font-weight:$weight-font ;}
+@mixin commontext-format{font-size: 16px; line-height: 24px;}
+
+@mixin commonflex{display: flex; align-items: center; justify-content: space-around;}
+
+@mixin skybox{background: #e1f4fd; border: 1px solid #6dcff6; color: $h1-color;}
